@@ -29,7 +29,7 @@ public class MovieReservation {
      	case 2:
      	{
      		System.out.println("**the theaters available are** \n "
-     				+ "1.karunya th \n 2.anna th");
+     				+ "1.karunya theatre \n 2.anna theatre");
      		int th;
      		th=sc.nextInt();
      		if(th==1)
