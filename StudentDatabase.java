@@ -5,8 +5,7 @@ import java.util.Scanner;
 import org.w3c.dom.ranges.RangeException;
 
 public class StudentDatabase {
-	
-	//private static final Exception RangeException = null;
+
 	public static String name;
 	
 	StudentDatabase()
@@ -38,8 +37,7 @@ public class StudentDatabase {
 			}
 			else
 				{
-					//System.out.println("Marks cant be lesser than 0 or be greater than 50");
-					throw new RangeException((short)0,"invalid marks");
+					throw new RangeException((short)0,"Marks cant be lesser than 0 or be greater than 50");
 					
 				}
 		}
