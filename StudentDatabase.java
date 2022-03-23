@@ -8,6 +8,7 @@ public class StudentDatabase {
 	
 	//private static final Exception RangeException = null;
 	public static String name;
+	
 	StudentDatabase()
 	{
 		
