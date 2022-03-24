@@ -76,7 +76,7 @@ public class EmployeeDb {
 		while(rs.next())
 			{
 				System.out.println("Emp_no: "+rs.getString("emp_no")+" Name: "+rs.getString("emp_name")
-			+" Salary:"+rs.getString("salary")+" Emp_desg:"+rs.getString("emp_desg")+" Emp_dept:"+rs.getString("emp_dept"));
+			+" Salary:  "+rs.getString("salary")+" Emp_desg: "+rs.getString("emp_desg")+" Emp_dept:  "+rs.getString("emp_dept"));
 			}
 		
 			System.out.println("Search sucessful");
