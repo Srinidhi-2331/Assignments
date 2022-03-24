@@ -6,7 +6,7 @@ public class Student
 	String studName;
 	int grade;
 	String studAddress;
-	boolean res=true;
+	boolean res = true;
 	
 
 		

@@ -6,7 +6,7 @@ public class EmployeeTest {
 	public static void main(String args[])
 	{
 		Employee emp=new Employee(101,20000,12);
-		@SuppressWarnings("unchecked")
+		@SuppressWarnings("Unchecked")
 		ArrayList<Double>resList=( ArrayList<Double>)emp.calculate();
 		System.out.println("PF: "+resList.get(0));
 		System.out.println("Home Allowance :  "+resList.get(1));

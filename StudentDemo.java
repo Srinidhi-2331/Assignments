@@ -10,7 +10,7 @@ public class StudentDemo
 		System.out.println("Student 1: Student Id: "+stud1.studId+"Student Name: "
 		+stud1.studName+" Grade :"+stud1.grade);
 		System.out.println("Student 2: Student Id: "+stud2.studId+"Student Name: "
-				+stud2.studName+" Grade :"+stud2.grade);
+				+stud2.studName+" Grade: "+stud2.grade);
 		
 	
 		if(stud1.hashCode()==stud2.hashCode())

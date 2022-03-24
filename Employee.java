@@ -7,7 +7,7 @@ public class Employee {
 	 int  empId;
 	 double basicSalary;
 	 double pfPercent;
-	 double pf;
+	 double pf ;
 	double totalSalary;
 	double homeAllow;
 	double carAllow;
